@@ -1,0 +1,1 @@
+export const ToppingsData = [ 'mushrooms 🍄', 'pepper 🌶', 'oninons 🧅', 'olives 🍒', 'extra cheese 🧀', 'tomatoes 🍅']

@@ -1,0 +1,36 @@
+header{
+   
+    display: flex;
+    align-items: baseline;
+    gap: 2rem;
+    & .logo{
+        height: 5rem;
+        width: 5rem;
+        margin:2rem 1rem;
+        & img {
+            height: 100%;
+            width: 200%;
+        }
+    }
+    
+    & .headerContent{
+        
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: .3rem;
+        margin-right:2rem ;
+        & p {
+            margin-left: 2.5rem;
+            font-size: 22px;
+        }
+       
+        & .underline{
+            height: 2px;
+            background-color: black;
+            width: 100;
+            margin-left: 2.5rem;
+        }
+    }
+    
+}

@@ -1,0 +1,32 @@
+.HomeContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    gap: 2rem;
+    flex-direction: column;
+   & h2{
+        font-size: clamp(1.5rem,1.7rem,2rem);
+        color: #FF359A;
+    }
+    & h1 {
+        color: #FF359A;
+
+        font-family: 'Poller One', serif;
+        font-size: 12.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    & button{
+        height: 3rem;
+        width: 15rem;
+        outline: none;
+        border: 2px solid rgb(128, 0, 128);
+        background-color: #fff;
+        border-radius: 3rem;
+        font-size: 18px;
+
+    }
+}

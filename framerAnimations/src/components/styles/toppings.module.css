@@ -1,0 +1,67 @@
+.toppingsContainer{
+    display: flex;
+    flex-direction: column;
+    
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+
+    & h1{
+        font-size: 19px;
+    }
+    & ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap:.5rem;
+        padding-top: 1rem;
+        transition: all 2s linear;
+        /* background-color: aqua; */
+        width: fit-content;
+
+        & li{
+            list-style: none;
+            font-size: 19px;
+            padding: .5rem 1rem;
+            width: 100%;
+            list-style-type: none;
+            &:hover {
+                color: rgb(192, 191, 197);
+                cursor: pointer;
+                background-color:rgb(131, 63, 63) ;
+            } 
+              
+           
+        }
+    }
+    & button{
+        height: 3rem;
+        margin-top: 1rem;
+        width: 15rem;
+        border: 2px solid purple;
+        border-radius: 3rem;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+    & >*{
+        color:purple;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    }
+    
+   
+   
+}
+.active{
+    background-color: aqua;
+    color: purple;
+}
+.Notactive{
+    
+}
